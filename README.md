@@ -10,7 +10,7 @@ In addition, I've 'borrowed' a couple of features from a Rene Schmitz design, sp
 
 Secondly, there's a buffer between the sustain and decay pots which removes any interdependence between the two. It also uses up an otherwise uncommitted op-amp.This is a PCB/panel set - it is up to you to source components for the build and actually build it. There are a few points to note, however:
 
--   Attack, decay and release tapers should be log taper - I recommend 1M audio. If you use smaller values, you should scale the decay/release capacitor, C4, accordingly (eg. if you use 100k caps for attack/decay then you should multiply the required capacitor value by 10)    
+-   Attack, decay and release tapers should be log taper - I recommend 1M audio. If you use smaller values, you should scale the decay/release capacitor, C4, accordingly (eg. if you use 100k pots for attack/decay then you should multiply the required capacitor value by 10)    
 -   Pretty much anything goes for the value of C4 - 470nF is a good, general value. Use larger values if you're planning to use the module for pads, or smaller for percussive patches. Anything above around 4.7uF will yield ridiculously long attack/decay times.
 -   For best results, use the CMOS version of the 555 - Renesas 7555 or TI SA555 are good choices; I've had mixed results with non-CMOS 555s. For the op-amp, a TL072 will work just fine.
 -   The build also requires 4 surface-mount transistors but these are pre-soldered for you.  
